@@ -1,0 +1,99 @@
+.Weather {
+  justify-content: space-evenly;
+  max-width: 640px;
+  background-color: #445174;
+  border-radius: 20px;
+  margin: 40px auto;
+  padding: 20px;
+  width: 100%;
+
+  border: thick double #04202b;
+}
+
+.Weather h1 {
+  font-size: 68px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  color: #e9edf1;
+  text-shadow: 2px 2px 2px rgb(72, 65, 65);
+  padding: 0px;
+}
+.Weather h2,
+.Weather h3 {
+  font-size: 35px;
+  font-family: "Roboto Slab", serif;
+  margin: 0 auto;
+  color: #b5e0f3;
+  line-height: 30px;
+}
+
+.Weather .search-button {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  color: #e9edf1;
+  background: #558abc;
+  border: 1px solid #445174;
+  border-radius: 8px;
+  padding: 7px 10px;
+}
+.Weather .currentLocationButton {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  color: #e9edf1;
+  background: #558abc;
+  border: 1px solid #445174;
+  border-radius: 8px;
+  padding: 7px 13px;
+}
+.Weather ul {
+  list-style: none;
+  margin: 40 auto;
+  padding: 0;
+  line-height: 2;
+}
+.Weather .weatherNow {
+  font-family: "Noto Serif JP", serif;
+  margin: 0px auto;
+  padding: 20px 0;
+  color: #e9edf1;
+}
+.Weather .tempNow {
+  font-size: 46px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(72, 65, 65);
+}
+.Weather .celsiusTemp,
+.Weather .farenheitTemp {
+  color: #e9edf1;
+  text-decoration: none;
+}
+.Weather .feelsLike,
+.Weather .humidity,
+.Weather .wind {
+  font-size: 18px;
+  color: #e9edf1;
+}
+
+.Weather .mainWeatherPic {
+  margin: 0 auto;
+  width: 20%;
+}
+.Weather .weather-forecast {
+  color: #e9edf1;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 2px 2px 2px rgb(72, 65, 65);
+  font-weight: 500;
+  opacity: 0.9px;
+}
+.Weather .weather-forecast-date {
+  font-size: 25px;
+}
+.Weather .weather-forecast-temperatures {
+  font-size: 20px;
+  margin: 5px;
+}
+.Weather .weather-forecast-temperature-min {
+  opacity: 0.6;
+  margin: 5px;
+}
